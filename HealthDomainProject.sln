@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolentHealth.Data", "EvolentHealth.Data\EvolentHealth.Data.csproj", "{B2E81484-49B9-40F8-9058-243FCE536E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolentHealth.Business", "EvolentHealth.Business\EvolentHealth.Business.csproj", "{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvolentHealth.Models", "EvolentHealth.Models\EvolentHealth.Models.csproj", "{86403897-9F3C-4F4E-85B7-3302D014AD93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.WebApi", "Evolent.WebApi\Evolent.WebApi.csproj", "{63677777-DBF5-4292-BE2A-1DD2D51335C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.WebApp", "Evolent.WebApp\Evolent.WebApp.csproj", "{162D0DF9-0C0B-4E11-A7FA-D9904C5308D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2} = {21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}
+		{63677777-DBF5-4292-BE2A-1DD2D51335C6} = {63677777-DBF5-4292-BE2A-1DD2D51335C6}
+		{B2E81484-49B9-40F8-9058-243FCE536E52} = {B2E81484-49B9-40F8-9058-243FCE536E52}
+		{86403897-9F3C-4F4E-85B7-3302D014AD93} = {86403897-9F3C-4F4E-85B7-3302D014AD93}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E81484-49B9-40F8-9058-243FCE536E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E81484-49B9-40F8-9058-243FCE536E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E81484-49B9-40F8-9058-243FCE536E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E81484-49B9-40F8-9058-243FCE536E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A6CA4E-3BEB-4CFD-94B4-8E4E8258B9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86403897-9F3C-4F4E-85B7-3302D014AD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86403897-9F3C-4F4E-85B7-3302D014AD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86403897-9F3C-4F4E-85B7-3302D014AD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86403897-9F3C-4F4E-85B7-3302D014AD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63677777-DBF5-4292-BE2A-1DD2D51335C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63677777-DBF5-4292-BE2A-1DD2D51335C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63677777-DBF5-4292-BE2A-1DD2D51335C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63677777-DBF5-4292-BE2A-1DD2D51335C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162D0DF9-0C0B-4E11-A7FA-D9904C5308D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162D0DF9-0C0B-4E11-A7FA-D9904C5308D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162D0DF9-0C0B-4E11-A7FA-D9904C5308D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162D0DF9-0C0B-4E11-A7FA-D9904C5308D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5C9E605-9C68-48A9-9EF6-D33411CCD4B0}
+	EndGlobalSection
+EndGlobal
